@@ -1,0 +1,58 @@
+.branches {
+    text-align: center;
+    margin: 20px;
+}
+
+.branch {
+    padding-top: 50px;
+    padding-bottom:200px;
+    margin: 30px 15px; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width:auto;
+    height: max-content;
+    text-align: center;
+    display: inline-block;
+}
+
+
+
+.branch h3 {
+    color: #ffffff;
+    font-size: 1.8em;
+    font-family: "Nunito Sans";
+}
+
+.branch p {
+    color: #ffffff;
+    margin: 5px ;
+    font-family: "Quicksand";
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+    opacity:1;
+}
+
+.branches h2 {
+    color: white;
+    font-family: "Quicksand";
+    font-size: 3em;
+}
+
+.products p h3 {
+    animation: content-text 2s ease 0s 1 normal forwards;
+    
+}
+
+@keyframes content-text {
+	0% {
+		transform: scaleX(0.4);
+		transform-origin: 100% 100%;
+	}
+
+	100% {
+		transform: scaleX(1);
+		transform-origin: 100% 100%;
+	}
+}
+
